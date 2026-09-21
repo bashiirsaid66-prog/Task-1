@@ -12,6 +12,15 @@ public class Course {
             double passPercentage;
             passPercentage = ((double) passedStudents / numberOfStudents) * 100;
             return passPercentage;
+            public void displayCourseStatistics ( int passedStudents){
+
+                double passPercentage = calculatePassPercentage(passedStudents);
+
+                System.out.println("Course: " + courseName);
+                System.out.println("Registered Students: " + numberOfStudents);
+                System.out.println("Pass Percentage: " + passPercentage + "%");
+                System.out.println();
+            }
         }
     }
 }
