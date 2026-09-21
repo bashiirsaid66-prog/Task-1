@@ -6,5 +6,9 @@ public class Main {
         java.displayCourseStatistics(34);
         database.displayCourseStatistics(28);
         networking.displayCourseStatistics(25);
+        System.out.println("University-wide Statistics");
+        System.out.println("--------------------------");
+        System.out.println("Total Students Across All Courses: "
+                + Course.getTotalStudents());
     }
     }
