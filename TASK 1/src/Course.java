@@ -20,6 +20,9 @@ public class Course {
                 System.out.println("Registered Students: " + numberOfStudents);
                 System.out.println("Pass Percentage: " + passPercentage + "%");
                 System.out.println();
+                public static int getTotalStudents () {
+                    return totalStudents;
+                }
             }
         }
     }
